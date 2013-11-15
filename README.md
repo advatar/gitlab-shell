@@ -12,6 +12,9 @@ __Requires ruby 1.9+__
 
 ### Getting Started
 
+    #sudo adduser --gecos 'GitLab' git
+
+    # create git user 
     sudo su - git
 
     # Clone gitlab shell
