@@ -10,6 +10,24 @@
 
 __Requires ruby 1.9+__
 
+### Getting Started
+
+    sudo su - git
+
+    # Clone gitlab shell
+    git clone https://github.com/advatar/gitlab-shell.git
+
+    cd gitlab-shell
+
+    # switch to right version
+    git checkout v1.7.8
+
+    cp config.yml.example config.yml
+
+    # Edit config and replace gitlab_url
+    # with something like 'http://domain.com/'
+    nano config.yml
+
 
 ### Setup
 
